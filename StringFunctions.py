@@ -1,16 +1,23 @@
-str = "Learning Python Strings"
+str1 = "Learning Python Strings"
 #Index 0123456789...
-print("String lenth is ", len(str))
+print("String lenth is ", len(str1))
 
-print(str.index("P")) # prints the index of 'P'
-print(str.index("Str")) # prints the starting index of the given string if present in str
+print(str1.index("P")) # prints the index of 'P'
+print(str1.index("Str")) # prints the starting index of the given string if present in str
 # print(str.index("hello")) # throws error
 
-print(str.replace("Py", "Jy")) # replacing the strings
-print(str) # we can't see the affect of replace function
-str = str.replace("Py", "Cy") # replacing the strings and making the changes in original string
-print(str) # now we can see the affect of replace function
+print(str1.replace("Py", "Jy")) # replacing the strings
+print(str1) # we can't see the affect of replace function
+str1 = str1.replace("Py", "Cy") # replacing the strings and making the changes in original string
+print(str1) # now we can see the affect of replace function
 
-print("Is the string in Uppper case? ", str.isupper())
-str = str.upper() # converts string to upper case
-print("New Case: " + str)
+str2 = "Lime soda drink"
+print("Is the string in Uppper case? ", str2.isupper())
+str2 = str2.upper() # converts string to upper case
+# Similarly, we can use islower() to check all characters in strings are lower or not
+# And lower() to make all characters of the string to lower case.
+print("New Case: " + str2)
+
+str3 = "   There are white    spaces at front and end    "
+print(str3)
+print(str3.strip()) # strip removes white spaces from both sides of the string

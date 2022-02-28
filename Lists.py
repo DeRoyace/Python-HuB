@@ -51,3 +51,12 @@ food.pop() # pops out/ removes the item from last
 print(food)
 food.remove("Omlette") # removes the specified item name from the list
 print(food)
+print()
+
+nums = [12, 23, 14, 56, 7, 21, 98, 11, 100]
+nums.reverse() # reverses the list
+print(nums)
+nums.sort() # sorts the list
+print(nums)
+del nums # deletes the entire list
+# print(nums) # gives error as the list is deleted

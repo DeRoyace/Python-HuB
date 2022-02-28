@@ -8,6 +8,8 @@ g = 2 + 3j
 h = ["hello", "world"]
 i = ("Visual", "Studio", "Code")
 
+# type() is used to get the type of the varibale.
+# i.e. whether the varibale is string, float, integer, complex, list, or tuple 
 print(a, type(a))
 print(b, type(b))
 print(c, type(c))

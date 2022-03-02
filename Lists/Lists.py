@@ -1,7 +1,8 @@
 # A list is a collection of datas/ objects/ items that can be of same type or different.
-# lists are ordered i.e indexed position wise 
-# we can change list items 
-# list allows duplicate elements 
+# Points to NOTE: 
+#   lists are ordered i.e indexed position wise 
+#   we can change list items 
+#   list allows duplicate elements 
 
 # This list given below is storing names of several countries 
 country = ["USA", "Australia", "India", "Japan", "New Zealand", "Germany", "France", "Russia"]

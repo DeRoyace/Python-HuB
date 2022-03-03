@@ -1,6 +1,7 @@
 str1 = "Learning Python Strings"
 #Index 0123456789...
 print("String lenth is ", len(str1))
+print("Occurence of 'n' :", str1.count("n")) # prints the no. of occurence of 'n;
 
 print(str1.index("P")) # prints the index of 'P'
 print(str1.index("Str")) # prints the starting index of the given string if present in str
@@ -21,3 +22,9 @@ print("New Case: " + str2)
 str3 = "   There are white    spaces at front and end    "
 print(str3)
 print(str3.strip()) # strip removes white spaces from both sides of the string
+
+str4 = "coding is the new bing!"
+str4 = str4.capitalize() # this capitalizes the first character of a string
+print(str4)
+print(str4.find("bing")) # prints the starting index of that word if found otherwise -1.
+print(str4.endswith("!")) # returns true if the string ends with the given string.

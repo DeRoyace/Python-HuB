@@ -1,3 +1,6 @@
+from cupshelpers import Printer
+
+
 str1 = "Learning Python Strings"
 #Index 0123456789...
 print("String lenth is ", len(str1))
@@ -28,3 +31,6 @@ str4 = str4.capitalize() # this capitalizes the first character of a string
 print(str4)
 print(str4.find("bing")) # prints the starting index of that word if found otherwise -1.
 print(str4.endswith("!")) # returns true if the string ends with the given string.
+
+strnum = "97"
+print("Is the string contains numeric digits ONLY? ", strnum.isdigit()) # return true if the given string is a digit

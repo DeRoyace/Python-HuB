@@ -54,6 +54,12 @@ food.remove("Omlette") # removes the specified item name from the list
 print(food)
 print()
 
+axb = [(1,2), (1,3), (2,3)] # tuples inside a list
+axb[1] = (4,5) # changing list tuple
+print(axb)
+print(type(axb))
+print()
+
 nums = [12, 23, 14, 56, 7, 21, 98, 11, 100]
 nums.reverse() # reverses the list
 print(nums)
